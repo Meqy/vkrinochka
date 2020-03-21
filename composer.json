@@ -17,5 +17,5 @@
             "meqy\\vkrinochka\\": "vendor/src"
         }
     },
-    "minimum-stability": "stable"
+    "minimum-stability": "dev"
 }
