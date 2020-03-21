@@ -5,7 +5,7 @@
     "require": {
         "php": "^7.0"
     },
-    "license": "BSD-3",
+    "license": "MIT",
     "authors": [
         {
             "name": "meqy qub",
@@ -13,7 +13,7 @@
         }
     ],
     "autoload": {
-        "psr-6": {
+        "psr-4": {
             "meqy\\vkrinochka\\": "vendor/src"
         }
     },
