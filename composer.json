@@ -1,0 +1,21 @@
+{
+    "name": "meqy/vkrinochka",
+    "description": "My VKApi library for create usefull bots for vk.",
+    "type": "library",
+    "require": {
+        "php": "^7.0"
+    },
+    "license": "BSD-3",
+    "authors": [
+        {
+            "name": "meqy qub",
+            "email": "mequ1qub@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-6": {
+            "meqy\\vkrinochka\\": "vendor/src"
+        }
+    },
+    "minimum-stability": "stable"
+}
