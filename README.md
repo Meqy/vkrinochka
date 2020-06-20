@@ -3,7 +3,7 @@
 >
 ## Download
 ```$xslt
-composer require meqy/vkrinochka
+composer require meqy/vkrinochka=1.0.1
 ```
 
 ## Examples
