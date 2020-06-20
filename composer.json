@@ -1,21 +1,21 @@
 {
     "name": "meqy/vkrinochka",
-    "description": "My VKApi library for create usefull bots for vk.",
+    "description": "PHP Library for a easly calling to VkApi",
     "type": "library",
-    "require": {
-        "php": "^7.0"
-    },
     "license": "MIT",
     "authors": [
         {
-            "name": "meqy qub",
-            "email": "mequ1qub@gmail.com"
+            "name": "Meqy Q",
+            "email": "meqy1qub@gmail.com"
         }
     ],
     "autoload": {
         "psr-4": {
-            "meqy\\vkrinochka\\": "vendor/src"
+            "vkrinochka\\vkrinochka\\": "src/vkrinochka/vkrinochka"
         }
     },
-    "minimum-stability": "dev"
+    "require": {
+        "ext-curl": "*",
+        "ext-json": "*"
+    }
 }
